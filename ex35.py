@@ -1,5 +1,6 @@
 from sys import exit
 
+
 def gold_room():
     print "this room is full of gold. how much do you take?"
 
@@ -58,6 +59,7 @@ def cthulhu_room():
 def dead(why):
     print why,"good job!"
     exit(0)
+
 
 def start():
     print "you are in a drk room"
